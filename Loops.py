@@ -94,3 +94,16 @@ def hello():
     return
 
 hello()
+
+def intersect(seq1, seq2):
+    res=[]   #start empty
+    for x in seq1:
+        if x in seq2:
+            res.append(x)
+    return res
+print(intersect('neena','meesha'))
+
+#H/W = find union
+
+f = lambda(x,y,z):
+    x+y+z
