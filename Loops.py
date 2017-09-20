@@ -85,8 +85,10 @@ myfun(3,4)
 
 def hello():
     name=str(input("Enter your name: "))
+    age=int(input("Enter your age: "))
     if name:
         print("Hello"+str(name))
+        print("Age",int(age))
     else:
         print("Hello World")
     return
