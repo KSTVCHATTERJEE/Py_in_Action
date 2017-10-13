@@ -31,5 +31,18 @@ print(median1)
 
 data1=[1,2,5,10,-20,5,5]
 
-def mode(data):
-    for i in 
+import statistics as s
+data1 = [49.,66,24,98,37,66,98,27,56,93,66,78,22,22,11]
+mode=s.mode(data1)
+print(mode) 
+
+
+import statistics as s
+data1 = [49.,66,24,98,37,66,98,27,56,93,66,78,22,22,11]
+v=s.variance(data1)
+print(v) 
+
+import statistics as s
+data1 = [49.,66,24,98,37,66,98,27,56,93,66,78,22,22,11]
+st=round(s.stdev(data1))
+print(st) 
