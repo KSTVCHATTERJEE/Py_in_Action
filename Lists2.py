@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jan 18 14:11:10 2018
+
+@author: KAUSTAV
+"""
+
 L = eval(input("Enter a list"))
 
 rollnos = [1,2,3,4,5,6,10,11]
